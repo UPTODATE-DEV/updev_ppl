@@ -1,0 +1,45 @@
+.form {
+  width: 60rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0.8rem;
+}
+
+.form input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 1.6rem 6.4rem;
+  border-radius: 99rem;
+  background-color: var(--color-search-bg);
+  font-size: 1.6rem;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+}
+
+.form input::placeholder {
+  color: var(--color-text-400);
+}
+
+.form svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.4rem;
+  color: var(--color-text-400);
+}
+
+.form svg:first-child {
+  left: 2.4rem;
+}
+.form svg:last-child {
+  right: 2.4rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1280px) {
+  .form {
+    bottom: 1.6rem;
+  }
+}

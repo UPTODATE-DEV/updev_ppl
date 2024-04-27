@@ -1,0 +1,34 @@
+.header {
+  background-image: url("../../assets/header-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom left;
+  height: 18rem;
+  position: relative;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 4rem;
+}
+
+.header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.header nav ul li a {
+  color: var(--color-text-950);
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    height: 20rem;
+  }
+}
