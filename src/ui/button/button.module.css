@@ -1,0 +1,18 @@
+.btn {
+  padding: 1.2rem 2.4rem;
+  border-radius: 99rem;
+  background-color: var(--color-primary);
+  color: var(--color-text-900);
+  border: none;
+  font-weight: 700;
+  font-family: "Fira Sans", sans-serif;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn.gradient {
+  background: var(--gradient-bg);
+}
