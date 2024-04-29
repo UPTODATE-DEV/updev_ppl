@@ -1,0 +1,26 @@
+.fake-range {
+  height: 0.64rem;
+  background-color: var(--color-primary);
+  position: relative;
+  z-index: 100;
+  border-radius: 99rem;
+}
+
+.fake-range .left,
+.fake-range .right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  z-index: 1001;
+  background-color: var(--color-primary);
+}
+
+.fake-range .left {
+  left: 0;
+}
+.fake-range .right {
+  right: 0;
+}
