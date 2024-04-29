@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom left;
-  height: 18rem;
+  height: 16rem;
   position: relative;
 }
 
@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: space-between;
 
-  padding-top: 4rem;
+  padding-top: 2.4rem;
 }
 
 .header nav ul {
@@ -27,7 +27,7 @@
   font-size: 1.6rem;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1440px) {
   .header {
     height: 20rem;
   }

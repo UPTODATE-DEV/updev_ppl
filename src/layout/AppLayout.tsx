@@ -6,7 +6,7 @@ export default function AppLaout() {
   return (
     <div>
       <Header />
-      <main>
+      <main className="container pd-block full-height">
         <Outlet />
       </main>
     </div>

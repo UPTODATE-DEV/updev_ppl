@@ -4,6 +4,7 @@
   background-color: var(--color-primary);
   color: var(--color-text-900);
   border: none;
+  font-size: 1.6rem;
   font-weight: 700;
   font-family: "Fira Sans", sans-serif;
   cursor: pointer;
@@ -15,4 +16,8 @@
 
 .btn.gradient {
   background: var(--gradient-bg);
+}
+
+a.btn {
+  text-align: center;
 }

@@ -38,7 +38,7 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1440px) {
   .form {
     bottom: 1.6rem;
   }
