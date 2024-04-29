@@ -1,0 +1,41 @@
+.weight {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.weight > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.weight p {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.weight p span {
+  background-color: var(--color-search-bg);
+  padding: 0.8rem 1.6rem;
+  border-radius: 99rem;
+  color: var(--color-text-800);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.weight .inputs-wrapper {
+  position: relative;
+  padding-block: 0.8rem 1.6rem;
+}
+
+.weight input {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  border: none;
+  visibility: hidden;
+}
