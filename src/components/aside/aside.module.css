@@ -1,0 +1,25 @@
+.aside {
+  background-color: var(--color-bg);
+  box-shadow: 0px 0px 1.6rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.8rem;
+  padding: 3.2rem 2.4rem;
+
+  display: grid;
+  grid-template-rows: auto;
+  gap: 2.4rem;
+}
+
+.aside > h2 {
+  color: var(--color-text-500);
+  font-weight: 500;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.aside a {
+  align-self: end;
+}
