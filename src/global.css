@@ -18,8 +18,11 @@
 
   --color-primary: #fb5905;
   --color-secondary: #feb81e;
+  --color-secondary-light: #fff5df;
 
   --gradient-bg: linear-gradient(#fb5905, #feb81e);
+
+  --box-shadow: 0px 0px 1.6rem rgba(0, 0, 0, 0.1);
 }
 
 *,
