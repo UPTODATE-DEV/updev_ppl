@@ -1,0 +1,22 @@
+.loading {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  gap: 1.6rem;
+  margin-top: 3.2rem;
+}
+
+.loading li {
+  padding: 12rem 16rem;
+  border-radius: 0.8rem;
+  box-shadow: var(--box-shadow);
+  animation: loading 1s ease-in-out infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-color: var(--color-bg);
+  }
+  50% {
+    background-color: var(--color-search-bg);
+  }
+}
