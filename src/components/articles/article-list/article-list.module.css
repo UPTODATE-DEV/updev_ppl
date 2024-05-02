@@ -1,0 +1,13 @@
+.articles {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding-bottom: 2.4rem;
+}
+
+.article-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(36rem, 1fr));
+  gap: 1.6rem;
+  padding-top: 3.2rem;
+}
